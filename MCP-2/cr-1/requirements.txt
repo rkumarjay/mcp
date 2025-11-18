@@ -1,0 +1,8 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0.post1
+httpx==0.25.2
+pydantic==2.5.1
+gunicorn==21.2.0
+google-auth==2.22.0
+requests==2.31.0
+jsonrpcserver==5.0.9
