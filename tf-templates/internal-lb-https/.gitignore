@@ -1,0 +1,14 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.exe
+
+# Certificate files (optional - uncomment if you don't want to commit certificates)
+# certs/*.crt
+# certs/*.key
+# certs/*.pem
+
+# Variables with sensitive data
+terraform.tfvars
