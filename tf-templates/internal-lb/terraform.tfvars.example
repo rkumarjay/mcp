@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in your values
+
+project_id  = "ai-10292025"
+region      = "us-central1"
+service_name = "test-cr-01"
+vpc_name    = "custom-vpc"
+subnet_name = "custom-subnet"
+lb_name     = "internal-lb"

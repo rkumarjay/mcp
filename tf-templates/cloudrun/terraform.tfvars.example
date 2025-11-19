@@ -1,0 +1,14 @@
+# Copy this file to terraform.tfvars and fill in your values
+
+project_id      = "your-gcp-project-id"
+region          = "us-central1"
+service_name    = "test-cr-01"
+vpc_name        = "custom-vpc"
+subnet_name     = "custom-subnet"
+container_image = "gcr.io/cloudrun/hello"
+container_port  = 8080
+max_instances   = 10
+min_instances   = 0
+cpu             = "1"
+memory          = "512Mi"
+domain_name     = "test-cr-01.example.com"
